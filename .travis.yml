@@ -19,7 +19,7 @@ before_script:
 
   # Install drush from latest master
   - mkdir vendor
-  - git clone git@github.com:drush-ops/drush.git vendor/drush
+  - git clone https://github.com/drush-ops/drush.git vendor/drush
   - chmod +x vendor/drush/drush
 
   # Import the PHP configuration.
