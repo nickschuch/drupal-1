@@ -3,6 +3,7 @@
 language: php
 php:
   - 5.3
+  - 5.4
 before_script:
   # Install Apache and FastCGI extension to connect to PHP-FPM.
   - sudo apt-get update > /dev/null
