@@ -34,7 +34,7 @@ before_script:
   - vendor/drush/drush si --db-url=mysql://travis:@localhost/drupal -y
   - chmod go-w sites/default
   - vendor/drush/drush en simpletest -y
-script: php -d display_errors="stderr" ./core/scripts/run-tests.sh --php `which php` --concurrency 12 --url 'http://localhost' --color $TEST_GROUPS
+script: php -d display_errors="stderr" ./core/scripts/run-tests.sh --php `which php` --concurrency 12 --url 'http://localhost' --color "$TEST_GROUPS"
 after_failure:
   - echo "Failures detected. Outputing additional logs:"
   - sudo cat /var/log/apache2/error.log
