@@ -41,7 +41,7 @@ after_failure:
   - sudo cat /var/log/apache2/error.log
   - sudo cat /var/log/mysql/error.log
 env:
-  - TEST_GROUPS='Action,Aggregator,AJAX,Authentication,Ban,Batch API,Block,Book,Bootstrap,Breakpoint,Cache,CKEditor,Color,Comment,Common,Condition API,Configuration,Contact,Content Translation UI,Contextual,Custom Block,Database,Datetime,DbLog,DrupalKernel,Edit,Entity,Entity API,Entity Reference'
-  - TEST_GROUPS='Field API,Field types,Field UI,File,File API,File API (remote),Filter,Form API,Forum,HAL,Help,History,Image,Installer,Key-value store,Language,Locale,Lock,Mail,Menu,Minimal,Module,Node,Overlay,Pager,ParamConverter,Path,Path API,Picture,Plugin API,Queue,RDF,REST,Routing,Search,Serialization,Service Provider'
+  - TEST_GROUPS='Action,Aggregator,AJAX,Authentication,Ban,Batch API,Block,Book,Bootstrap,Breakpoint,Cache,CKEditor,Color,Comment,Common,Condition API,Configuration,Contact,Content Translation UI,Contextual,Custom Block,Database,Datetime,DbLog,DrupalKernel,Edit,Entity,Entity API,Entity Reference,Field API,Field types,Field UI,File,File API,File API (remote)'
+  - TEST_GROUPS='Filter,Form API,Forum,HAL,Help,History,Image,Installer,Key-value store,Language,Locale,Lock,Mail,Menu,Minimal,Module,Node,Overlay,Pager,ParamConverter,Path,Path API,Picture,Plugin API,Queue,RDF,REST,Routing,Search,Serialization,Service Provider'
   - TEST_GROUPS='Session,Shortcut,SimpleTest,Standard,Statistics,Syslog,System,Taxonomy,TempStore,Text Editor,Theme,Toolbar,Tour,Tracker,Translation,Transliteration,Typed Data API,Update,Update API,Upgrade path,User,UUID,Views,Views Config,Views Handlers,Views module integration,Views Plugins,Views UI,Views Wizard,XML-RPC,PHPUnit'
 
